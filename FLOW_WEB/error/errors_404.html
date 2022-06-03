@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="4; url=../index.php">
+    <title>404 page not found</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            background: linear-gradient( to bottom right,#d9083c 30%, #14171b 50%);
+            height: 100vh;
+        }
+        #container{
+            position: absolute;
+            top: 10%;
+            right: 10%;
+            left:10%;
+            bottom:10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0b0b0c ;
+            box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4),
+            -3px -3px 6px rgba(0, 0, 0, 0.5);
+
+            border-radius: 10px;
+        }
+        #container .content{
+            max-width: 600;
+            text-align:center;
+        }
+        #container .content h2{
+            font-size: 18vw;
+            color:gray;
+            line-height: 1em;
+        }
+        #container .content h4{
+            position: relative;
+            font-size: 1.5em;
+            margin-bottom:20px;
+            color:#111;
+            background: gray;
+            font-weight: 300;
+            padding:10px 20px;
+            display: inline-block;
+
+        }
+        #container .content p{
+            color:#fff;
+            font-size: 1em;
+            font-style: oblique;
+            color:gray;
+        }
+        #container .content a{
+            position: relative;
+            display: inline-block;
+            padding: 10px 25px;
+            text-decoration: none;
+            margin-top: 25px;
+            border-radius: 25px;
+            border-bottom: 4px solid #d9083c;
+            color: #d9083c;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="content">
+            <h2>404</h2>
+            <h4>Opps ! Page not found</h4>
+            <p>The page you are looking for does't exists, You may have mistyped the address or
+                the page may have moved.
+            </p>
+            <a href="../index.php">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
