@@ -172,7 +172,7 @@
                             </select>
                         </div>
                     </div>
-                        <div>
+                    <div>
                         <label for="sampleInput">Your Project Name</label>
                         <input required name="project" class="h-full-width" type="text" placeholder="Your project name" id="sampleInput">
                     </div>
@@ -213,7 +213,7 @@
         <div class="row h-text-center">
             <div class="column" >
                 <p class="s-contact__email" style="margin:-10px 0 -25px 0;" >
-                    <a href="mailto:#0" style="font-size: 25px;color:black;">flowwebat@gmail.com</a>
+                    <a href="mailto:#0" style="font-size: 25px;color:black;">techbrother@hotmail.com</a>
                 </p>
             </div>
         </div>

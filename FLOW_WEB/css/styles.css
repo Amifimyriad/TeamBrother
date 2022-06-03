@@ -3433,8 +3433,9 @@ input::-moz-focus-inner {
     position: relative;
 }
 
+/* <div class="row s-hero__content">  */
 .s-hero__content h1 {
-    font-size: 22rem;
+    font-size: 12rem;
     font-weight: 600;
     letter-spacing: -.04em;
     line-height: 1;
@@ -3462,7 +3463,7 @@ input::-moz-focus-inner {
 .s-hero__content-about {
     font-family: var(--font-2);
     font-weight: 400;
-    font-size: 3.6rem;
+    font-size: 2.2rem;
     line-height: 1.444;
     color: var(--color-white);
     padding-left: 3.6em;
@@ -3482,6 +3483,7 @@ input::-moz-focus-inner {
 
 .s-hero__content-about p {
     margin-bottom: var(--vspace-2);
+    margin-top: var(--vspace-0_5);
 }
 
 /* hero content social
@@ -3489,7 +3491,7 @@ input::-moz-focus-inner {
 .s-hero__content-social {
     display: inline-block;
     font-size: 1.8rem;
-    line-height: var(--vspace-1);
+    line-height: var(--vspace-2);
 }
 
 .s-hero__content-social a {

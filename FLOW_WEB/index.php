@@ -5,10 +5,10 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Flowweb-Web Development in Ranchi| IT Company | Flowweb.rf.gd</title>
-    <meta name="keywords" content="Flow,Flowweb,Flowweb design,Flowweb Development, It, IT company,Best Web development,Website Designing in Ranchi, Dhanbad, Hazaribag, Jharkhand India, Web Development Ranchi, Jamshedpur, Dhanbad, Hazaribag, Dumka, Godda, Koderma, Chaibasa, Palamu, Chatra, Bokaro, Patna, Jharkhand India, Billing Software Development in Ranchi, Jamshedpur,  Jharkhand India, SEO, Search Engine Optimization, Digital Marketing, MLM Software in Ranchi, Software in Ranchi, ERP Software Development in Ranchi."/>
-    <meta name="description" content="  We are Flow, best web development company in Ranchi. We love building great Websites.Have an idea or an epic project in mind? Talk to us. Let us know, We will help you to achieve you idea into website.">
-    <meta name="author" content="Flowweb--Web Development Company, https://www.flowweb.rf.gd/">
+    <title>TechBrother| Helping Hands</title>
+    <meta name="keywords" content="Flow,Flowweb,Flowweb design,Flowweb Development,Team, Team Brothers, Brothers, TechBrothers, It, IT company,Best Web development,Website Designing in Ranchi, Dhanbad, Hazaribag, Jharkhand India, Web Development Ranchi, Jamshedpur, Dhanbad, Hazaribag, Dumka, Godda, Koderma, Chaibasa, Palamu, Chatra, Bokaro, Patna, Jharkhand India, Billing Software Development in Ranchi, Jamshedpur,  Jharkhand India, SEO, Search Engine Optimization, Digital Marketing, MLM Software in Ranchi, Software in Ranchi, ERP Software Development in Ranchi."/>
+    <meta name="description" content="  We are TeamBrothres, best freelance (paid/free) in Ranchi. We love building great Websites. Have an idea or an epic project in mind? Talk to us. Let us know, We will help you to achieve you idea into website or get notes , cheatsheet, helps to learn easily.">
+    <meta name="author" content="TechBrother.me Development Company, https://www.TechBrother.me/">
 
     <!-- mobile specific metas
     ================================================== -->
@@ -65,7 +65,7 @@
 
         <div class="s-header__logo">
             <a href="index.php">
-               <div style="margin-top: -50px;"><h3 style="color:  #d9083c;">Flow</h3></div>
+               <div style="margin-top: -30px; margin-right: 40px; "><h5 style="color:  #d9083c; ">TechBrother</h5></div>
             </a>
         </div>
 
@@ -78,11 +78,13 @@
                     <li><a class="smoothscroll" href="#services" title="Services">Services</a></li>
                     <li><a class="smoothscroll" href="#portfolio" title="Works">Works</a></li>
                 </ul>
-            </nav> <!-- end s-header__nav-wrap -->
+            </nav> 
+            
+    <!-- end s-header__nav-wrap -->
 
             <a href="register.php" class="btn btn--primary btn--small">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
-                Buy Projects
+                Sign In
             </a>
 
         </div> <!-- end header-content -->
@@ -103,16 +105,16 @@
         <div class="row s-hero__content">
             <div class="column">
 
-                <h1>Flow.</h1>
+                <h1>TechBrother</h1>
 
                 <div class="s-hero__content-about">
-                  <h3>Flow Web Disgning</h3>
+                  <h3>Tech Brothers</h3>
                     <p>
-                    We are Flow. We love <br>
-                    building great Websites <br>
-                    in <span style="color: #d9083c">Ranchi</span>.
+                    We'll tell you about <br>
+                    better learning hacks<br>
+                    you <span style="color: #d9083c">needed </span>till now.
                     </p>
-                <a class="btn btn--primary h-small-width" href="companylist.html" style="margin-top: -20px;">Find Jobs</a>
+                <a class="btn btn--primary h-small-width" href="companylist.html" style="margin-top: -20px;">Find Hacks</a>
                     <footer>
                         <div class="s-hero__content-social">
                             <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
@@ -126,10 +128,10 @@
             </div>
         </div>
               <div class="s-hero__video">
-            <a class="s-hero__video-link" href="https://youtu.be/fRv8L1t_3Wc" data-lity="">
+            <!-- <a class="s-hero__video-link" href="https://youtu.be/fRv8L1t_3Wc" data-lity="">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
                 <span class="s-hero__video-text">Play Video</span>
-            </a>
+            </a> -->
         </div>
 
         <div class="s-hero__scroll">
