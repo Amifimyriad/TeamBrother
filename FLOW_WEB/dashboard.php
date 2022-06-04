@@ -26,7 +26,7 @@ $result = mysqli_fetch_assoc($query);
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Flow-Web Dashboard</title>
+    <title>TechBrother| Helping Hands</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -43,6 +43,8 @@ $result = mysqli_fetch_assoc($query);
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script defer src="js/fontawesome/all.min.js"></script>
+     <!--Fontawesome-->
+     <script src="https://kit.fontawesome.com/0e0d337852.js" crossorigin="anonymous"></script>
 
     <!-- favicons
     ================================================== -->
@@ -85,7 +87,7 @@ $result = mysqli_fetch_assoc($query);
 
         <div class="s-header__logo">
             <a href="index.php">
-               <div style="margin-top: -50px;"><h3 style="color:  #d9083c;">Flow</h3></div>
+               <div style="margin-top: -30px; margin-right: 40px; "><h5 style="color:  #d9083c;">TechBrother</h5></div>
             </a>
         </div>
 
@@ -126,17 +128,17 @@ $result = mysqli_fetch_assoc($query);
                 <h1 style="font-size: 80px;">WLCM<span style="color: white;">.</span></h1>
 
                 <div class="s-hero__content-about">
-                  <h3><?php echo $_SESSION['studentname']; ?></h3>
+                  <h3><?php echo strtoupper($result['studentname']); ?></h3>
                     <p>
-                   To flow web design<br> <span style="color: #d9083c">scroll to </span>payment.
+                   To Techbrother<br> <span style="color: #d9083c">scroll to </span>more info.
                     </p>
                 <a class="btn btn--primary h-small-width" href="logout.php" style="margin-top: -20px;">LOGOUT</a>
                     <footer>
                         <div class="s-hero__content-social">
                             <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                            <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#0"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a>
                             <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                            <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
+                            <a href="#0"><i class="fa-brands fa-discord" aria-hidden="true"></i></a>
                         </div>
                     </footer>
                 </div>
@@ -218,68 +220,68 @@ $result = mysqli_fetch_assoc($query);
     ================================================== -->
     <section class="s-contact">
 
-        <div class="row narrower s-contact__top h-text-center">
-            <div class="column" >
-                <h3 class="h6" style="margin-top:-110px;">Get In Touch</h3>
-                <h1 class="display-1">
-                Have an idea or an epic project in mind? Talk to
-                us. Let us know. We will help you to achieve you idea into website.
-                </h1>
-            </div>
-        </div> <!-- s-footer__top -->
+<div class="row narrower s-contact__top h-text-center">
+    <div class="column" >
+        <h3 class="h6" style="margin-top:-90px;">Get In Touch</h3>
+        <h1 class="display-1">
+        Have an idea or an epic suggetion in mind? Talk to
+        us. Let us know, We will try to make it live into website.
+        </h1>
+    </div>
+</div> <!-- s-footer__top -->
 
-        <div class="row h-text-center">
-            <div class="column">
-                <p class="s-contact__email">
-                    <a href="mailto:#0" style="font-size: 30px;">flowwebat@gmail.com</a>
+<div class="row h-text-center">
+    <div class="column" >
+        <p class="s-contact__email" style="margin:-10px 0 -25px 0;" >
+            <a href="mailto:techbrother@hotmail.com" style="font-size: 25px;color:black;">techbrother@hotmail.com</a>
+        </p>
+    </div>
+</div>
+
+</section>  <!-- end s-contact -->
+
+
+<!-- footer
+================================================== -->
+<footer class="s-footer" style="text-align: center;">
+<div class="row row-y-top" style="">
+
+    <div class="column large-8 medium-12">
+        <div class="row">
+            <div class="column large-7 tab-12 s-footer__block">
+                <h4 class="h6">Few Examples</h4>
+
+                <p>
+                For full details <br>
+                <a href="register.php">Register </a><br>
+                 <br>
+                <a href="#">HTML Cheat Sheet</a><br>
+                <a href="#">Azure Certification Cheat Sheet</a><br>
+                <a href="#">Javascript Cheat Sheet</a><br>
                 </p>
             </div>
+
+            <div class="column large-5 tab-12 s-footer__block">
+                <h4 class="h6">Get Connected</h4 class="h6">
+
+                <ul class="s-footer__list">
+                    <li><a target="new" href="https://t.me/+mBEKVCr8a0oxNmI9">Telegram Channel</a></li>
+                    <li><a target="new" href="https://t.me/techbrother_official">Telegram Group</a></li>
+                    <!-- <li><a target="new" href=" ">Instagram</a></li> -->
+                    
+                </ul>
+            </div>
         </div>
+    </div>
 
-    </section>  <!-- end s-contact -->
+    <div class="column large-4 medium-12 s-footer__block--end">
+        <a href="https://t.me/techbrother_official" class="btn h-full-width">Let's Talk</a>
 
-
-    <!-- footer
-    ================================================== -->
-    <footer class="s-footer" style="text-align: center;">
-        <div class="row row-y-top">
-
-            <div class="column large-8 medium-12">
-                <div class="row">
-                    <div class="column large-7 tab-12 s-footer__block">
-                        <h4 class="h6">Where to Find Us</h4>
-        
-                        <p>
-                        834005 Ranchi <br>
-                        Ratu Road, Jharkhand <br>
-                         IN <br>
-                        <a href="tel:6201760843">+91-6201760843</a><br>
-                        <a href="tel:9304984077">+91-9304984077</a><br>
-                        <a href="tel:7493820347">+91-7493820347</a><br>
-                        </p>
-                    </div>
-        
-                    <div class="column large-5 tab-12 s-footer__block">
-                        <h4 class="h6">Follow Us</h4 class="h6">
-        
-                        <ul class="s-footer__list">
-                            <li><a target="new" href="https://www.facebook.com/FlowWeb-108132431554206">Facebook</a></li>
-                            <li><a target="new" href="#0">Whatsapp</a></li>
-                            <li><a target="new" href=" https://www.instagram.com/invites/contact/?i=103puopx2pz0e&utm_content=m07kf58">Instagram</a></li>
-                            
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column large-4 medium-12 s-footer__block--end">
-                <a href="mailto:#0" class="btn h-full-width">Let's Talk</a>
-
-                <div class="ss-copyright" >
-                    <span>Copyright Flow 2021</span> 
-                    <span>Design by <a href="">FlowWeb</a></span>
-                </div>
-            </div>
+        <div class="ss-copyright" style="margin-bottom:-60px;" >
+            <span>Copyright &#169; TechBrother 2022</span> 
+            <span>Designed & developed with  <v class="fa-solid fa-shield-heart" style="color: white;"></v> by <a href="">TechBrother</a></span>
+        </div>
+    </div>
 
             <div class="ss-go-top">
                 <a class="smoothscroll" title="Back to Top" href="#top">

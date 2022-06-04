@@ -23,6 +23,8 @@
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script defer src="js/fontawesome/all.min.js"></script>
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/0e0d337852.js" crossorigin="anonymous"></script>
 
     <!-- favicons
     ================================================== -->
@@ -30,6 +32,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    
+
 
 </head>
 <style>
@@ -118,9 +122,9 @@
                     <footer>
                         <div class="s-hero__content-social">
                             <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                            <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#0"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a>
                             <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                            <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
+                            <a href="#0"><i class="fa-brands fa-discord" aria-hidden="true"></i></a>
                         </div>
                     </footer>
                 </div>
@@ -160,11 +164,11 @@
 
             <div class="column large-6 w-900-stack s-about__intro-text">
                 <h1 class="display-1" data-aos="fade-up">
-                    <span style="color: #d9083c">Flow</span> is a team which helps you to build your website. We design thoughtful websites to make our coustomers happy.
+                    <span style="color: #d9083c">TechBrother</span> is a tech team which helps you to build your carrier. We design thoughtful websites to make learning easy & happier.
                 </h1>
 
                 <p class="lead" data-aos="fade-up">
-                    In Ranchi we provide the best website making @ low cost.Our team will also give you the best service and after making the website we also provide 2 week free service of maintanance. 
+                    We have provided with the best sort of cheat sheets, and the best possible ways how to learn easily. There will be some paid and free data available for you at handy prices.
                 </p>
             </div>
 
@@ -175,27 +179,27 @@
 
         <div class="row block-large-1-2 block-tab-full s-about__process item-list">
             <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Define</h3>
+                <h3 class="item-title">Who are we</h3>
                 <p>
-               Flow Web Designing a reputed and trusted in web design industry. Our goal is to make you happy by providing the best quality web design thats fullfill your requirements at an unbeatable price.
+               Teach Brother is a reputed and trusted in community. Our goal is to make you happy by providing the best quality guidance thats fullfill your requirements at an unbeatable price for your carriers.
                 </p>
             </div>
             <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Design</h3>
+                <h3 class="item-title">Carrier</h3>
                 <p>
-                We provide awesome design according to the client's need. We use latest technology to design website.
+                We provide awesome carrier updates on latest offers opprtunity provided by latest MNCs.
                 </p>
             </div>
             <div class="column item item-process" data-aos="fade-up">
                 <h3 class="item-title">Our Team</h3>
                 <p>
-                We are a team of professionals with technical skills, sound leadership, experienced to deliver the desired project on time. We skilled, experienced in advanced technologies to design awesome websites.
+                We are a team of professionals with technical skills, sound leadership, experienced to deliver the desied roadmap to your skills. We are skilled, experienced in advanced technologies.
                 </p>
             </div>
             <div class="column item item-process" data-aos="fade-up">
                 <h3 class="item-title">Support</h3>
                 <p>
-               We are always present for you. We provide 2 week free service maintainance. 
+               We are always present for you. Feel free to contact us via Telegram/Live Chat.
                 </p>
             </div>
         </div>
@@ -215,7 +219,7 @@
             </div>
             <div class="column large-6 w-900-stack">
                 <h1 class="display-1" data-aos="fade-up">
-                    Feel free to <span style="color: #d9083c">contact</span> us by filling this form, we contact you soon as possible. 
+                    Feel free to <span style="color: #d9083c">contact</span> us by filling this form, we contact you as soon as possible. 
                 </h1>
             </div>
             <div class="column large-6 w-900-stack">
@@ -232,7 +236,7 @@
                         <label for="sampleInput">Your Email Id</label>
                         <input name="email" required="" class="h-full-width" type="email" placeholder="Email Id" id="sampleInput">
                     </div>
-                    <div>
+                    <!-- <div>
                         <label for="sampleRecipientInput">Which Type of website</label>
                         <div class="ss-custom-select">
                             <select name="type" required="" class="h-full-width" id="sampleRecipientInput">
@@ -244,12 +248,12 @@
                                 <option value="Other">Other</option>
                             </select>
                         </div>
-                    </div>
+                    </div> -->
                     
-                    <label for="exampleMessage">Address</label>
+                    <!-- <label for="exampleMessage">Address</label>
                      <div>
                         <input name="address" required="" class="h-full-width" type="text" placeholder="Your address" id="sampleInput">
-                    </div>
+                    </div> -->
                     <label class="h-add-bottom">
                         <input required="" type="checkbox">
                         <span class="label-text">Agree terms & conditions</span>
@@ -449,7 +453,7 @@
         <div class="row narrower s-clients__top h-text-center">
             <div class="column">
                 <h1 class="display-1" data-aos="fade-up">
-               Some of Our <span style="color: #d9083c">Development</span> tools for web building.
+               Some of Our <span style="color: #d9083c">Development</span> tools present here.
                 </h1>
             </div>
         </div> <!-- s-clients__top -->
@@ -458,14 +462,23 @@
             <div class="column">
                 <div class="clients" data-aos="fade-up">
                     
-                    <a href="#0" title="" class="clients__slide"><img  src="images/icons/clients/js.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/html.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img  src="images/icons/clients/angular.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/swift.png" /></a>
                     <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/github.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/css.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/jenkins.png" /></a>
                     <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/php.png" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/vs.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/python.png" /></a>
                     <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/sql.png" /></a>
-                     
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/azure.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/scala.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/css.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/html.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/docker.png" /></a>
+
+                    
+
+
+
                 </div> <!-- end clients -->
             </div> <!-- end column -->
         </div> <!-- end clients-outer -->
@@ -480,19 +493,19 @@
     
                        <div class="testimonial-slider__slide">
                         <p>
-                        I am <span style="color: #d9083c;">Tushar Anand</span>, a web designer/developer focused on crafting great web experiences. Designing and Coding have been my passion since the days I started working with computers but I found myself into web design/development since 2019. I enjoy creating beautifully designed,intuitive and functional websites.
+                        Bonjour, I am <span style="color: #d9083c;">Amit Kumar</span>, a web designer/developer currently working in TCS. Designing and Coding have been my passion since the days I started working with computers but I found myself into web design/development since 2019. I enjoy creating beautifully designed,intuitive and functional websites.
                         </p>
                         <div class="testimonial-slider__author">
-                            <img src="images/avatars/tushar.jpeg" alt="Author image" class="testimonial-slider__avatar">
+                            <img src="images/avatars/amit.jpeg" alt="Author image" class="testimonial-slider__avatar">
                             <cite class="testimonial-slider__cite">
-                                <strong>Tushar Anand</strong>
+                                <strong>Amit Kumar</strong>
                                 <span>Full Stack Developer</span>
                             </cite>
                         </div>
                     </div>
                                         <div class="testimonial-slider__slide">
                         <p>
-                        I am <span style="color:#d9083c; ">Amit Kumar,</span> a full stack developer. Worked with many IT Companies. I'm dedicated to learn new technologies that solves real life problem. I have completed many projects including government websites. I'm here to deliver you good products in very affordable price. I will be very happy to help you.
+                        Hola, I am <span style="color:#d9083c; ">Amit Kumar,</span> a web designer/developer currently working in Cognizant. I'm dedicated to learn new technologies that solves real life problem. I have completed many projects including government websites. I'm here to deliver you good products in very affordable price. I will be very happy to help you.
                         </p>
                         <div class="testimonial-slider__author">
                             <img src="images/avatars/amitpic.jpg" alt="Author image" class="testimonial-slider__avatar">
@@ -502,19 +515,6 @@
                             </cite>
                         </div>
                     </div> 
-    
-                    <div class="testimonial-slider__slide">
-                        <p>
-                       I am <span style="color:#d9083c; ">Amarjeet Kumar </span>a web developer designs, develops, enhances, tests and deploys web applications with an end goal of creating engaging and user-friendly site layout and function. A developer gathers and defines requirements, maintains websites, troubleshoots and fixes bugs, follows best practices and collaborates with other teams.
-                        </p>
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/amar.jpeg" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>Amarjeet Kumar</strong>
-                                <span>Full Stack developer</span>
-                            </cite>
-                        </div>
-                    </div>
                              <!-- end testimonials__slide -->
 
                 </div> <!-- end testimonial slider -->
@@ -535,8 +535,8 @@
             <div class="column" >
                 <h3 class="h6" style="margin-top:-90px;">Get In Touch</h3>
                 <h1 class="display-1">
-                Have an idea or an epic project in mind? Talk to
-                us. Let us know, We will help you to achieve you idea into website.
+                Have an idea or an epic suggetion in mind? Talk to
+                us. Let us know, We will try to make it live into website.
                 </h1>
             </div>
         </div> <!-- s-footer__top -->
@@ -544,7 +544,7 @@
         <div class="row h-text-center">
             <div class="column" >
                 <p class="s-contact__email" style="margin:-10px 0 -25px 0;" >
-                    <a href="mailto:flowwebat@gmail.com" style="font-size: 25px;color:black;">flowwebat@gmail.com</a>
+                    <a href="mailto:techbrother@hotmail.com" style="font-size: 25px;color:black;">techbrother@hotmail.com</a>
                 </p>
             </div>
         </div>
@@ -560,25 +560,25 @@
             <div class="column large-8 medium-12">
                 <div class="row">
                     <div class="column large-7 tab-12 s-footer__block">
-                        <h4 class="h6">Where to Find Us</h4>
+                        <h4 class="h6">Few Examples</h4>
         
                         <p>
-                        834005 Ranchi <br>
-                        Ratu Road, Jharkhand <br>
-                         IN <br>
-                        <a href="tel:6201760843">+91-6201760843</a><br>
-                        <a href="tel:9304984077">+91-9304984077</a><br>
-                        <a href="tel:7493820347">+91-7493820347</a><br>
+                        For full details click <br>
+                        <a href="register.php">Register </a><br>
+                         <br>
+                        <a href="#">HTML Cheat Sheet</a><br>
+                        <a href="#">Azure Certification Cheat Sheet</a><br>
+                        <a href="#">Javascript Cheat Sheet</a><br>
                         </p>
                     </div>
         
                     <div class="column large-5 tab-12 s-footer__block">
-                        <h4 class="h6">Follow Us</h4 class="h6">
+                        <h4 class="h6">Get Connected</h4 class="h6">
         
                         <ul class="s-footer__list">
-                            <li><a target="new" href="https://www.facebook.com/FlowWeb-108132431554206">Facebook</a></li>
-                            <li><a target="new" href="#0">Whatsapp</a></li>
-                            <li><a target="new" href=" https://www.instagram.com/invites/contact/?i=103puopx2pz0e&utm_content=m07kf58">Instagram</a></li>
+                            <li><a target="new" href="https://t.me/+mBEKVCr8a0oxNmI9">Telegram Channel</a></li>
+                            <li><a target="new" href="https://t.me/techbrother_official">Telegram Group</a></li>
+                            <!-- <li><a target="new" href=" ">Instagram</a></li> -->
                             
                         </ul>
                     </div>
@@ -586,11 +586,11 @@
             </div>
 
             <div class="column large-4 medium-12 s-footer__block--end">
-                <a href="mailto:flowwebat@gmail.com" class="btn h-full-width">Let's Talk</a>
+                <a href="https://t.me/techbrother_official" class="btn h-full-width">Let's Talk</a>
 
                 <div class="ss-copyright" style="margin-bottom:-60px;" >
-                    <span>Copyright Flow 2021</span> 
-                    <span>Design by <a href="">FlowWeb</a></span>
+                    <span>Copyright &#169; TechBrother 2022</span> 
+                    <span>Designed & developed with  <v class="fa-solid fa-shield-heart" style="color: white;"></v> by <a href="">TechBrother</a></span>
                 </div>
             </div>
 

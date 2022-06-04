@@ -1,7 +1,7 @@
 <?php
 
 $server = "127.0.0.1";
-$user = "epiz_29157152_flowweb";
+$user = "root";
 $password = "";
 $db = "epiz_29157152_Flowweb";
 $con = mysqli_connect($server,$user,$password,$db);
